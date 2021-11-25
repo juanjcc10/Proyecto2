@@ -1,0 +1,14 @@
+public class moto extends vehiculo
+{
+   public moto(){}
+   public moto(String p,String m,String c,String t){
+        this(p,m,c,30000000,t);
+    }
+    public moto(String p,String m,String c,int v,String t){
+        super(p,m,c,v,t);
+    }
+    public String tipoVehiculo(){
+        String tipo = "moto";
+        return tipo;
+    }
+}
